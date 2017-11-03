@@ -148,14 +148,20 @@ section{
 	margin-left: 10px;
 }
 aside{
-  width: 280px;
-  background: white;
-  height: 350px;
-  float:left;
-  margin-left: 20px;
-  margin-top: 20px;
-  border-radius: 10px;
-
+	width: 350px;
+	background: red;
+	height: 450px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+.twitter-timeline{
+	width:50%;
+	background: blue;
+	height: 50%;
+	float: center;
+	border-radius: 10px;
 }
 footer{
 	width: 1100px;
@@ -179,7 +185,9 @@ p.textoTeoria{
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 16px; /*alto de linea*/
-	padding: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 1px;
 	text-align: justify;
 }
 /* Definimos las Clases */
@@ -229,5 +237,4 @@ header_texto {
     color: #FFF;
     text-align: left;
 	font-size:9px;
-	
 }
